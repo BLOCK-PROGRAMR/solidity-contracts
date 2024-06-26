@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "Bankadress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "contract Bank",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/reentrancyAttack/Attacker.sol": "Attacker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/reentrancyAttack/Attacker.sol": {
+			"keccak256": "0x7bca15dbe7887cb3263b68b3cb65c4dcf1cc002983297a3018b316ef045f0a30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40c2a070a4e6e3f1b889c38954c222d00baec4664ddd378de7558e817bc8a1f9",
+				"dweb:/ipfs/QmS7WQvsxprjnPaEGkMwj1mewe5ZxGJDsSkDmSpekxqXDz"
+			]
+		},
+		"contracts/reentrancyAttack/Bank.sol": {
+			"keccak256": "0x6fbf471b3cb76e1a5aa63894ab5b8d6d689eb1effb6aec00a47221c9e4ec0df4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2239690b9ff8d580e92bcd4c1824cee5a00cbd615028417576d07d88ced0ee40",
+				"dweb:/ipfs/QmQNCGqoLvkXScQtt2NVs5UqhXudjCQVvmXgmVJMNZaLXS"
+			]
+		}
+	},
+	"version": 1
+}

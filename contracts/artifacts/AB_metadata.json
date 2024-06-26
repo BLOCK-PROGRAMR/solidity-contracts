@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "delegate",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "args",
+						"type": "bytes"
+					}
+				],
+				"name": "steal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Attack.sol": "AB"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Attack.sol": {
+			"keccak256": "0x98e91c6c2471f1211650245c216168df2b35e397663ce5a61a292e5cff0c6929",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1e864677adb4ef3ffbe33048b0d8818e2d402f9e52d7a8fa834daacb3d393e6",
+				"dweb:/ipfs/QmSiE5GJDJ1XNUt2fb5fy7EpUWgZEi7bMsJkyNMP1R4b1a"
+			]
+		}
+	},
+	"version": 1
+}
